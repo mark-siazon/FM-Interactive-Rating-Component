@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 - Live Site URL: [Website Link - Click Me](https://interactive-rating-component-hazel-iota.vercel.app/)
-- Solution URL: [FrontEndMentor Link](https://your-solution-url.com)
+- Solution URL: [FrontEndMentor - Link](https://www.frontendmentor.io/solutions/interactive-rating-component-12uc3g8DGZ)
 
 ## My process
 
