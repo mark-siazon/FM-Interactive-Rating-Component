@@ -36,9 +36,8 @@ Users should be able to:
 | ![](design-finished/Finished-Desktop-20230120_130648.png) | ![](design-finished/Finished-Mobile-20230120_130753.png) |
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Website Link - Click Me](https://interactive-rating-component-hazel-iota.vercel.app/)
+- Solution URL: [FrontEndMentor Link](https://your-solution-url.com)
 
 ## My process
 
@@ -48,13 +47,14 @@ Users should be able to:
 
 ### What I learned
 
-Recap over some of the major learnings while working through this project.
+Recap over some of the major learnings while working through this project:
 - Basic review of HTML & CSS
 - CSS Flex Layout
 - Basics of JS (Implementing what I had learned)
 - Basics of DOM Manipulation
 - Some shortcuts in coding javascript (Eg. Arrow Function, ForEach Loop, Backtick Syntax, etc.)
-Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+<br>
 
 This code snippets/function, if what I'm proud to accomplished:
 
