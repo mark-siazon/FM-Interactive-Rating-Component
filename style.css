@@ -1,0 +1,151 @@
+/***************  Root Styles  ***************/ 
+*{
+--primary-clr:hsl(25, 97%, 53%);
+--white: hsl(0, 0%, 100%);
+--light_grey: hsl(217, 12%, 63%);
+--mid_grey: hsl(216, 12%, 54%);
+--dark_blue: hsl(213, 19%, 18%);
+--mdark_blue: rgb(48, 56, 63);
+--vdark_blue: hsl(216, 12%, 8%);
+}
+
+body{
+  background-color: var(--vdark_blue);
+  color: var(--white);
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Overpass', sans-serif;
+}
+
+p{
+  font-size: 15px;
+}
+
+main{
+  background-color: var(--dark_blue);
+  border-radius: 0.7rem;
+  margin: 1.45rem;
+  padding: 1rem 1.5rem;
+  max-width: 300px; /* 250est. mobile */
+  box-shadow: rgb(15, 15, 18) 1px 2px 20px 1px;
+}
+
+.hidden{
+  display: none;
+}
+
+/***************  General Styles  ***************/
+body, 
+#thankyou-section,
+.rating-section,
+.submit-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-btn,
+.star-section > img{
+  background-color: var(--mdark_blue);
+  border-radius: 50%;
+}
+
+/********** Star + Text Sec. **********/
+.star-section > img{
+  padding: 0.80rem;
+}
+
+.text-section > p, .rating-btn{
+  color: var(--light_grey);
+}
+
+/********** Thankyou Sec. **********/
+#thankyou-section{
+  flex-direction: column;
+  display: none;
+  margin-top: 10%;
+}
+
+#thankyou-section > div{
+  padding: 0.5rem 1.5rem;
+  margin: 1.6rem 0;
+  border-radius: 40px;
+  background-color: var(--mdark_blue);
+}
+
+#thankyou-section p{
+  margin: 0;
+  color: var(--primary-clr);
+  font-size: 1rem;
+}
+
+/********** Rating Sec. **********/
+.rating-btn{
+  padding: 0.55rem 0.95rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.rating-btn:hover,
+.rating-btn:active,
+.rating-btn.active{
+  color: var(--white);
+}
+
+.rating-btn.active,
+.rating-btn:active{
+  background-color: var(--mid_grey);
+}
+
+.rating-btn:hover{
+  background-color: var(--primary-clr);
+}
+
+/********** Submit Sec. **********/
+.rating-btn,
+.submit-btn > button {
+  cursor: pointer;
+}
+
+.submit-btn > button{
+  width: 77.5vw;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 46px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: var(--primary-clr);
+  pointer-events: none;
+}
+
+.submit-btn > button:active{
+  color: var(--primary-clr);
+  background-color: var(--white);
+  font-weight: 500;
+}
+
+/********** Other Sec. **********/
+
+/*** MQ: Mobile LG and more --- if (device width >= 480px) ***/
+@media only screen and (min-width: 480px){ 
+  main{
+    max-width: 330px /* 250est. mobile */
+  }
+
+  .rating-btn{
+    margin: 0.5rem 0.6rem;
+  }
+}
+
+/*** MQ: Mobile MD and less --- if (device width <= 375px) ***/
+@media only screen and (max-width: 375px){ 
+  main{
+    max-width: 250px;
+  }
+
+  .rating-btn{
+    margin: 0.3rem 0.25rem;
+  }
+}
+/* Finished Jan 20, 2023 */
