@@ -30,6 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
+<div align="center">
+
+| Overview of how the website functions: |
+|---------|
+![](design-finished/Finished-Desktop(Vid)-20230120%20_112027.gif)
+
+</div>
+
 | Desktop View | Mobile View |
 |---------|---------|
 | ![](design-finished/Finished-Desktop-20230120_130628.png) | ![](design-finished/Finished-Mobile-20230120_130732.png) |
