@@ -44,7 +44,7 @@ Users should be able to:
 | ![](design-finished/Finished-Desktop-20230120_130648.png) | ![](design-finished/Finished-Mobile-20230120_130753.png) |
 
 ### Links
-- Live Site URL: [Website Link - Click Me](https://interactive-rating-component-hazel-iota.vercel.app/)
+- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Interactive-Rating-Component/)
 - Solution URL: [FrontEndMentor - Link](https://www.frontendmentor.io/solutions/interactive-rating-component-12uc3g8DGZ)
 
 ## My process
